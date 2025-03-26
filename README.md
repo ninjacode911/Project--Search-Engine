@@ -1,4 +1,4 @@
-# Project--Search-Engine
+🚀 Search Engine Project
 This project allows users to search for information and retrieve relevant results from the web. It is built with Streamlit for an interactive interface.
 
 🚀 Search Engine Project
