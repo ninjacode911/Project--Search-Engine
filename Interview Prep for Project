@@ -1,0 +1,94 @@
+🔎 AI-Powered Search Engine
+📌 Project Overview
+This project is a custom search engine built using Python and Streamlit, leveraging the Exa API for retrieving real-time search results. It provides users with an intuitive interface to search for various topics and receive relevant, up-to-date results from the web.
+
+The goal of this project was to create a lightweight yet efficient search engine that delivers accurate results while being customizable for further enhancements.
+
+🎯 Implementation Details
+1. Tech Stack
+Python – Core programming language for scripting and logic.
+
+Streamlit – Used for building an interactive web-based interface.
+
+Exa API – A web search API that retrieves results from various sources.
+
+GitHub – Used for version control and collaboration.
+
+2. Functional Workflow
+User Input: The application prompts the user for a search query.
+
+Query Processing: The input is passed to the Exa API, which handles the search request.
+
+Fetching Results: The API returns a list of relevant search results.
+
+Displaying Output: The results, including titles, URLs, descriptions, and timestamps, are displayed in a structured format.
+
+Autoprompt Feature: If the query is ambiguous, the autoprompt feature refines it for better accuracy.
+
+3. Key Features
+✅ User-Friendly UI – Built using Streamlit, ensuring an interactive and smooth experience.
+✅ Real-Time Search – Fetches live data from the internet via the Exa API.
+✅ Autoprompt Assistance – Improves search accuracy by refining queries.
+✅ Optimized Performance – Lightweight and fast response time.
+✅ Scalability – Can be extended with additional search categories, filters, or APIs.
+
+🚀 How I Implemented and Overcame Challenges
+1. API Integration & Authentication
+Initially, the integration with the Exa API faced authentication issues due to an invalid API key. This was resolved by:
+
+Regenerating a new API key.
+
+Properly setting the key in the environment variables.
+
+Verifying API requests using print(response.status_code) for debugging.
+
+2. Handling API Response & Displaying Data
+The API returned JSON responses, which were parsed to extract necessary details like title, URL, and description.
+
+Used Python loops and conditionals to format and display results cleanly in Streamlit.
+
+3. Optimizing Search Performance
+Initially, fetching multiple results led to unnecessary API calls, so I optimized it to limit API requests using num_results=10.
+
+Implemented autoprompting to refine searches for better accuracy.
+
+🔥 Project Advantages
+Why This Project is Valuable?
+✔ Efficient & Fast – Retrieves real-time results with minimal latency.
+✔ Simple Yet Powerful – Provides relevant information with an easy-to-use interface.
+✔ Extensible – Can be expanded with advanced filtering, AI-based ranking, and multiple data sources.
+
+Future Enhancements
+🔹 Add More Search Filters – Sort by date, relevance, or content type.
+🔹 AI-Based Ranking – Use NLP to rank the most relevant results.
+🔹 Multi-Source Search – Integrate additional APIs like Google Custom Search or Bing API.
+🔹 Better UI – Improve design with custom CSS and frontend frameworks.
+
+🛠 How to Set Up and Run
+1. Clone the Repository
+sh
+Copy
+Edit
+git clone https://github.com/your-username/your-repo.git
+cd your-repo
+2. Install Dependencies
+sh
+Copy
+Edit
+pip install -r requirements.txt
+3. Run the Application
+sh
+Copy
+Edit
+streamlit run app.py
+4. Enter Your Search Query
+Type your question, and the search engine will return relevant results.
+
+🏆 Why This Project Stands Out for My Resume
+Showcases API Integration Skills – Demonstrates real-world API usage.
+
+Strong Python & Streamlit Experience – Proves ability to build interactive web apps.
+
+Problem-Solving – Highlights how I debugged and optimized performance.
+
+Scalability – Can be extended with AI-based ranking & multi-source search.
