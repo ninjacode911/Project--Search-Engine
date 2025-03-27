@@ -1,9 +1,9 @@
 from exa_py import Exa
 import os
 
-print(os.getenv("68c359a1-72bf-4148-b28e-95d42b4e6993"))  # Should print your key
+print(os.getenv("API_KEY"))  # Should print your key
 
-exa = Exa("68c359a1-72bf-4148-b28e-95d42b4e6993")  # my API Key
+exa = Exa("API_KEY")  # my API Key
 
 query = input('Hey, What would you like to know about? \n')
 
